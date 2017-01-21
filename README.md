@@ -14,7 +14,7 @@ Fork and clone repo
 
 ### If you want to run the build process
 `npm run build`
->This will place your new bundle.js file into your public folder, allowing your server to serve your index.html without the development enviroment.
+>This will place the bundle.js file into the public folder. Allowing the server to serve index.html with bundle.js without the development enviroment.
 
 
 ## Contributing
