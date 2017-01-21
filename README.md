@@ -1,4 +1,4 @@
-# React-Webpack-Seed
+# Simple React Webpack Seed
 
 ## Installation
 If you don't have Node.js installed please visit [NodeJS.org](https://nodejs.org/en/)
