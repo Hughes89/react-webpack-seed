@@ -10,7 +10,6 @@ Fork and clone repo
 ## Running Development
 * **Web Development Server**
 
- * In the root of the repo
  * `npm run dev-web`
 
 >This will run the webpack development server with live reload. If you don't need an API server, you can simply just work with this.
@@ -25,14 +24,12 @@ Fork and clone repo
 
 ## Production Process
 * **Building**
- * In the root of the repo
  * `npm run build`
  
 >This will place the bundle.js file into the public folder.
 >*Note: public/bundle.js is git ignored.*
 
 * **Serving**
- * In the root of the repo
  * `npm start`
  
 >Runs the server, serving index.html with bundle.js without the development enviroment.
