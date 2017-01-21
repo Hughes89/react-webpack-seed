@@ -8,15 +8,15 @@ Fork and clone repo
 `npm install`
 
 ### If you want to run in development
-** Web Development Server **
+**Web Development Server**
 
 `npm run dev-web`
 
 *This will run the webpack development server with live reload. If you don't need any API routes from a server, you can simply just work with this.*
 
-__ API Development Server __
+**API Development Server**
 
-* Open a second terminal tab *(Mac: CMD + T)*
+*Open a second terminal tab *(Mac: CMD + T)*
 * Inside the second terminal tab in the root of the rep run
 `npm run dev-server`
 
@@ -29,7 +29,8 @@ Note: public/bundle.js is git ignored.*
 
 ### Running Production ###
 `npm start`
-* Runs the server, serving index.html with bundle.js without the development enviroment. *
+
+*Runs the server, serving index.html with bundle.js without the development enviroment.*
 
 
 ## Contributing
