@@ -29,8 +29,7 @@ Fork and clone repo
  * `npm run build`
  
 >This will place the bundle.js file into the public folder.
-
-*Note: public/bundle.js is git ignored.*
+>*Note: public/bundle.js is git ignored.*
 
 * **Serving**
  * In the root of the repo
