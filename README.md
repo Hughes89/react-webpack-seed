@@ -7,18 +7,18 @@ If you don't have Node.js installed please visit [NodeJS.org](https://nodejs.org
 Fork and clone repo
 `npm install`
 
-### If you want to run in development
-**Web Development Server**
+## Running Development
+* **Web Development Server**
 
 `npm run dev-web`
 
 *This will run the webpack development server with live reload. If you don't need any API routes from a server, you can simply just work with this.*
 
-**API Development Server**
+* **API Development Server**
 
-*Open a second terminal tab *(Mac: CMD + T)*
-* Inside the second terminal tab in the root of the rep run
-`npm run dev-server`
+  * Open a second terminal tab *(Mac: CMD + T)*
+  * Navigate back to the root the cloned repo
+  * run `npm run dev-server`
 
 *This will run the api server with nodemon on port 1337 (Allowing the server to auto refresh on save).*
 
