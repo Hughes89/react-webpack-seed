@@ -14,7 +14,7 @@ Fork and clone repo
 
 *This will run the webpack development server with live reload. If you don't need any API routes from a server, you can simply just work with this.*
 
-** API Development Server **
+__ API Development Server __
 
 * Open a second terminal tab *(Mac: CMD + T)*
 * Inside the second terminal tab in the root of the rep run
