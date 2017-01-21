@@ -3,9 +3,11 @@
 ## Installation
 If you don't have Node.js installed please visit [NodeJS.org](https://nodejs.org/en/)
 
+
 ## Usage
 Fork and clone repo
 `npm install`
+
 
 ## Running Development
 * **Web Development Server**
@@ -21,6 +23,7 @@ Fork and clone repo
   * `npm run dev-server`
 
 >This will run the api server with nodemon on port 1337 (Allowing the server to auto refresh on save).
+
 
 ## Production Process
 * **Building**
