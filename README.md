@@ -18,7 +18,7 @@ Fork and clone repo
 
 * **API Development Server**
 
-  * Open a second terminal tab *(Mac: cmd + T)*
+  * Open a second terminal tab *(Mac: cmd + t)*
   * Navigate back to the root the repo
   * `npm run dev-server`
 
