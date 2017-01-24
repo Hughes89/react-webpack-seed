@@ -12,15 +12,15 @@ Fork and clone repo
 ## Running Development
 * **API Development Server**
 
-  * Open a second terminal tab *(Mac: cmd + t)*
-  * Navigate back to the root the repo
-  * `npm run dev-server`
+ * `npm run dev-server`
 
 >This will run the api server with nodemon on port 1337 (Allowing the server to auto refresh on save).
 
 * **Web Development Server**
 
  * `npm run dev-web`
+ * Open a second terminal tab *(Mac: cmd + t)*
+ * Navigate back to the root the repo
 
 >This will run the webpack development server with live reload. If you don't need an API server, you can simply just work with this.
 
