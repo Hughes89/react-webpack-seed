@@ -12,6 +12,16 @@ module.exports = {
     },
   watch: true,
   devtool: 'eval',
+  devServer: {
+    contentBase: "./public",
+    historyApiFallback: true,
+    proxy: {
+      '/api': {
+        target: 'http://127.0.0.1:1337/',
+        secure: false
+      }
+    }
+  },
   module: {
     loaders: [
       {

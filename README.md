@@ -10,12 +10,6 @@ Fork and clone repo
 
 
 ## Running Development
-* **Web Development Server**
-
- * `npm run dev-web`
-
->This will run the webpack development server with live reload. If you don't need an API server, you can simply just work with this.
-
 * **API Development Server**
 
   * Open a second terminal tab *(Mac: cmd + t)*
@@ -24,13 +18,21 @@ Fork and clone repo
 
 >This will run the api server with nodemon on port 1337 (Allowing the server to auto refresh on save).
 
+* **Web Development Server**
+
+ * `npm run dev-web`
+
+>This will run the webpack development server with live reload. If you don't need an API server, you can simply just work with this.
+
+>Note: This development server uses a proxy to the node server (port 1337). To use any api routes from the node server just make sure to use '/api/something' in the request url, otherwise it will require the full url to make requests.
+
 
 ## Production Process
 * **Building**
  * `npm run build`
  
 >This will place the bundle.js file into the public folder.
->*Note: public/bundle.js is git ignored.*
+>*Note: public/bundle.js and public/bundle.js.map are git ignored.*
 
 * **Serving**
  * `npm start`
